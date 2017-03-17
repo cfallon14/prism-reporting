@@ -1,0 +1,12 @@
+{
+  "project_path": "C:/Project/Prism/quantitative_advantage",
+  "report_name": "fact_sheet",
+  "data_file": "data.xlsx",
+  "template_vars": {"title": "Fact Sheet"},
+  "output_filename": "fact_sheet",
+  "pdf_settings": {
+      "template": "00002A"
+  },
+  "xl_settings": {},
+  "ppt_settings": {}
+}

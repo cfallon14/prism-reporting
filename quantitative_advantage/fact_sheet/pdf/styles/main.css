@@ -1,0 +1,13 @@
+@page {
+  size: letter;
+  /* add landscape for landscaped reports */
+}
+
+.container {
+    /*width: 1000px; - for fixed width report */
+}
+
+body {
+    font-family: "Arial";
+    font-size: 0.75em;
+}

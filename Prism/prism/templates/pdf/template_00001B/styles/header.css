@@ -1,0 +1,22 @@
+.header {
+}
+
+.header-left {
+    width: 800px;
+    float: left;
+}
+
+.header-right {
+    width: 200px;
+    float: right;
+}
+
+.description {
+    width: 300px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.description h4 {
+    margin: -1px;
+}

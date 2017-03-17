@@ -1,0 +1,12 @@
+{
+  "project_path": "C:/Project/Prism/perpetua",
+  "report_name": "brokerage_summary",
+  "data_file": "data.xlsx",
+  "template_vars": {"title": "Brokerage Summary"},
+  "output_filename": "brokerage_summary",
+  "pdf_settings": {
+      "template": "00002A"
+  },
+  "xl_settings": {},
+  "ppt_settings": {}
+}

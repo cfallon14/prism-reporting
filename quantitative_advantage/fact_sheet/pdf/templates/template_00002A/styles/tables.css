@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-bottom: 50px;
+}
+
+/* For row highlighting */
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+th {
+    background-color: #000;
+    color: white;
+    height: 20px;
+    text-align: left;
+}
+
+td {
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,12 @@
+@page {
+  size: landscape;
+}
+
+.container {
+    width: 1000px;
+}
+
+body {
+    font-family: "Arial";
+    font-size: 0.75em;
+}

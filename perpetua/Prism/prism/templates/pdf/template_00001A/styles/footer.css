@@ -1,0 +1,18 @@
+@page {
+  /* Used for page counting */
+  @bottom-center {
+    content: "Disclaimer here";
+    font-size: 12px;
+    font-family: "Arial";
+  }
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font-size: 12px;
+    font-family: "Arial";
+  }
+}
+
+.disclosure {
+    font-size: 10px;
+}
+

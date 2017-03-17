@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1>Brokerage Summary: August 2016</h1>
+            </div>
+            <div class="header-right">
+                <img src="data/logo.png">
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="description">
+            <h4>Portfolio: XYZ Strategy</h4>
+            <h4>Benchmark: S&P 500</h4>
+            <h4>Period: Sept. 2013 - Aug. 2016</h4>
+        </div>
+
+        {% for table in tables %}
+            {{table}}
+        {% endfor %}
+
+        <!-- Footer -->
+        <div class="disclosure">
+         <p>Please remember that different types of investments involve varying degrees of risk, including the loss of money invested and that past performance may not be indicative of future results.   Therefore, it should not be assumed that future performance of any specific investment or investment strategy, including the investments or investment strategies recommended or undertaken by XYZ Investments Capital, LLC (“XYZ Investments”) will be profitable.  Please remember to contact XYZ Investments if there are any changes in your personal or financial situation or investment objectives for the purpose of reviewing our previous recommendations and services, or if you wish to impose, add, or modify any reasonable restrictions to our investment management services.  A copy of our current written disclosure statement discussing our advisory services and fees continues to remain available for your review upon request.  Descriptions of XYZ Investments process and strategies are based on general practice and we may make exceptions in specific cases.
+
+        A comparison to indices may not be a meaningful comparison.  Comparisons to benchmarks have limitations because benchmarks have volatility and other material characteristics that may differ from performance of a client's portfolio.  The investments in a client's portfolio may differ substantially from the securities that comprise each index and are not intended to track the returns of any particular index.  One cannot invest directly in an index, nor is any index representative of any client's portfolio.  Actual client accounts will hold different securities than the ones included in each index.  The index returns are gross of applicable account transaction, custodial, and investment management fees.  The actual investment results would be reduced by such fees and any other expenses incurred as an investor.
+
+        XYZ Investments manages client portfolios in a manner that allocates a percentage to Growth assets and a percentage to Fixed Income assets.  The firm’s overall investment strategy is determined by the firm’s Investment Committee who determines the components of a 100% Fixed portfolio and a 100% Growth portfolio.  This individual clients’ allocation is determined in consultation with the client as to their risk tolerance and individual goals.  To determine which portfolios should comprise each composite, the Growth to Fixed allocation is reviewed monthly and the portfolio is placed in the correct composite.  A portfolio’s allocation to cash is not included in the determination of a portfolio’s Growth to Fixed ratio.
+
+        Please note that this composite has not been independently verified.</p>
+        </div>
+
+    </div>
+</body>
+</html>
